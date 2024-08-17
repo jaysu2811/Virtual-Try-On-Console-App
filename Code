@@ -1,0 +1,142 @@
+def try_on_clothing():
+    print("You have selected Clothing.")
+    size = input("Please enter your size (S/M/L/XL): ")
+
+    print("Please select a type of clothing:")
+    print("1. T-Shirt")
+    print("2. Jeans")
+    print("3. Jacket")
+    print("4. Dress")
+    print("5. Shorts")
+    
+    clothing_choice = input("Enter your choice (1/2/3/4/5): ")
+
+    if clothing_choice == '1':
+        print(f"You have selected a T-Shirt of size {size}.")
+    elif clothing_choice == '2':
+        print(f"You have selected Jeans of size {size}.")
+    elif clothing_choice == '3':
+        print(f"You have selected a Jacket of size {size}.")
+    elif clothing_choice == '4':
+        print(f"You have selected a Dress of size {size}.")
+    elif clothing_choice == '5':
+        print(f"You have selected Shorts of size {size}.")
+    else:
+        print("Invalid choice! Please restart the application.")
+        return
+
+    simulate_try_on()
+
+def try_on_accessories():
+    print("You have selected Accessories.")
+    
+    print("Please select an accessory:")
+    print("1. Hat")
+    print("2. Sunglasses")
+    print("3. Watch")
+    print("4. Necklace")
+    print("5. Bracelet")
+
+    accessory_choice = input("Enter your choice (1/2/3/4/5): ")
+
+    if accessory_choice == '1':
+        print("You have selected a Hat.")
+    elif accessory_choice == '2':
+        print("You have selected Sunglasses.")
+    elif accessory_choice == '3':
+        print("You have selected a Watch.")
+    elif accessory_choice == '4':
+        print("You have selected a Necklace.")
+    elif accessory_choice == '5':
+        print("You have selected a Bracelet.")
+    else:
+        print("Invalid choice! Please restart the application.")
+        return
+
+    simulate_try_on()
+
+def try_on_footwear():
+    print("You have selected Footwear.")
+    
+    print("Please select a type of footwear:")
+    print("1. Sneakers")
+    print("2. Boots")
+    print("3. Sandals")
+    print("4. Heels")
+    print("5. Loafers")
+
+    footwear_choice = input("Enter your choice (1/2/3/4/5): ")
+
+    if footwear_choice == '1':
+        print("You have selected Sneakers.")
+    elif footwear_choice == '2':
+        print("You have selected Boots.")
+    elif footwear_choice == '3':
+        print("You have selected Sandals.")
+    elif footwear_choice == '4':
+        print("You have selected Heels.")
+    elif footwear_choice == '5':
+        print("You have selected Loafers.")
+    else:
+        print("Invalid choice! Please restart the application.")
+        return
+
+    simulate_try_on()
+
+def try_on_outerwear():
+    print("You have selected Outerwear.")
+    
+    print("Please select a type of outerwear:")
+    print("1. Coat")
+    print("2. Blazer")
+    print("3. Hoodie")
+    print("4. Raincoat")
+    print("5. Windbreaker")
+
+    outerwear_choice = input("Enter your choice (1/2/3/4/5): ")
+
+    if outerwear_choice == '1':
+        print("You have selected a Coat.")
+    elif outerwear_choice == '2':
+        print("You have selected a Blazer.")
+    elif outerwear_choice == '3':
+        print("You have selected a Hoodie.")
+    elif outerwear_choice == '4':
+        print("You have selected a Raincoat.")
+    elif outerwear_choice == '5':
+        print("You have selected a Windbreaker.")
+    else:
+        print("Invalid choice! Please restart the application.")
+        return
+
+    simulate_try_on()
+
+def simulate_try_on():
+    print("Simulating virtual try-on...")
+    print("Fitting the item...")
+    print("Displaying the item in AR...")
+    print("Fit looks great! You're all set!")
+
+def main():
+    print("Welcome to the Virtual Try-On Experience!")
+    print("Please select a category to try on:")
+    print("1. Clothing")
+    print("2. Accessories")
+    print("3. Footwear")
+    print("4. Outerwear")
+
+    choice = input("Enter your choice (1/2/3/4): ")
+
+    if choice == '1':
+        try_on_clothing()
+    elif choice == '2':
+        try_on_accessories()
+    elif choice == '3':
+        try_on_footwear()
+    elif choice == '4':
+        try_on_outerwear()
+    else:
+        print("Invalid choice! Please restart the application.")
+
+if __name__ == "__main__":
+    main()

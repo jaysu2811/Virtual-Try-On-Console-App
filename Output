@@ -1,0 +1,23 @@
+Welcome to the Virtual Try-On Experience!
+Please select a category to try on:
+1. Clothing
+2. Accessories
+3. Footwear
+4. Outerwear
+Enter your choice (1/2/3/4): 1
+
+You have selected Clothing.
+Please enter your size (S/M/L/XL): M
+Please select a type of clothing:
+1. T-Shirt
+2. Jeans
+3. Jacket
+4. Dress
+5. Shorts
+Enter your choice (1/2/3/4/5): 2
+
+You have selected Jeans of size M.
+Simulating virtual try-on...
+Fitting the item...
+Displaying the item in AR...
+Fit looks great! You're all set!
